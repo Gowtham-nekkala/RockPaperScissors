@@ -4,9 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>project</title>
-    <script src="script.js"></script>
 </head>
 <body>
-    <strong><em>CHECK THE CONSOLE!!!</em></strong>
+    <pre><strong><i>ROCK PAPER SCISSORS</i></strong> Game</pre>
+    <div class = "container">
+        <div class = "user">
+            <p><em>Enter your choice: </em></p><br>
+            <button id="rock" onclick= "getHumanchoice('rock');getComputerchoice()">ROCK</button>
+            <button id="paper" onclick="getHumanchoice('paper');getComputerchoice()">PAPER</button>
+            <button id="scissors" onclick="getHumanchoice('scissors');getComputerchoice()">SCISSORS</button><br>
+            <p id = "output"></p><br>
+            <p id = "score"></p>
+            <button id="stop" onclick="stop()">stop</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
